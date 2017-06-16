@@ -11,7 +11,7 @@
 //Computer chooses word randomly from word choice array
 	function computerMakesChoice(){
 		var randomIndex = Math.floor(Math.random () * words.length);
-		computerChoice = words.[randomIndex];
+		computerChoice = words[randomIndex];
 		console.log("computerChoice", computerChoice);
 	}
 
